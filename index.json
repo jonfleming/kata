@@ -5,7 +5,8 @@
     "steps": [
       {
         "title": "Step 1",
-        "text": "step1.md"
+        "text": "step1.md",
+        "courseData": "setup.sh"
       },
       {
         "title": "Step 2",
@@ -21,6 +22,20 @@
     },
     "finish": {
       "text": "finish.md"
+    },
+    "assets": {
+      "client": [
+        {
+          "file": "Dockerfile",
+          "target": "~/"
+        }
+      ],
+      "host01": [
+        {
+          "file": "setup.sh",
+          "target": "~/"
+        }
+      ]
     }
   },
   "environment": {
